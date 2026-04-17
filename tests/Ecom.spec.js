@@ -12,7 +12,7 @@ const icon = page.locator('img[src$="Personperson.svg"]');
 await expect(icon).toBeVisible();
 await icon.click();
 
-const signIn = page.getByText('Sign In / Register');
+const signIn = page.getByText('Log In / Register');
 await signIn.click();
 
 
