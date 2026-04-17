@@ -5,4 +5,8 @@ test('Ecom login', async ({ page }) => {
 
 
     await page.goto("https://beta.malabargoldanddiamonds.com/");
+    
 });
+
+
+
